@@ -128,7 +128,7 @@ class RecipeCard extends HTMLElement {
 		// 			 Do NOT include the <article> tags within the innerHTML of the element you create.
 		//           Remember to replace all the placeholders in the template with the data passed in.
 		//           i.e. imgSrc, titleLnk, etc
-		let starImg = `/assets/images/icons/${data.rating}-star.svg`;
+		let starImg = `./assets/images/icons/${data.rating}-star.svg`;
 		let imgAlt = `${data.rating} stars`;
 		articleElement.innerHTML = `
 			<img src="${data.imgSrc}" alt="${data.imgAlt}">
